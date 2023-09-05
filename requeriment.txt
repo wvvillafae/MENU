@@ -9,3 +9,4 @@ protobuf==4.21.12
 Werkzeug==2.3.7
 gunicorn==21.2.0
 pymongo==23.2.1
+certifi==2023.7.22
