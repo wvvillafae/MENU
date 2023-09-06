@@ -9,7 +9,7 @@
         <body>
             <div class="head">
                 <div class="logo">
-                    <img src="static/logo.png" alt="logo de la app" class="logo-img">
+                    <img src="/static/logo.png" alt="logo de la app" class="logo-img">
                     <a href="#">Creamy Cupcake</a>
                 </div>
         
@@ -111,7 +111,7 @@
             justify-content: center;
             align-items: center;
             height: 60vh;
-            background: url(static/imagen_5.jpg) no-repeat center;
+            background: url(/static/imagen_5.jpg) no-repeat center;
             background-size: cover;
             width: 100%;
         }
@@ -228,7 +228,7 @@
     <div class="container">
         {% for receta in recetas  %}
         <div class="image-box">
-            <img src="/static/images/{{receta.img}}" alt="Imagen 1">
+            <img src="/static/{{receta.img}}" alt="Imagen 1">
             <h3>{{ receta.name }}</h3>
             <p>{{ receta.description }}</p>
             <a href="{{url_for('ingredientes', receta=receta.name)}}"  class="boton">Más</a>
