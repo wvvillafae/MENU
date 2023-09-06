@@ -5,6 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creamy Cupcake</title>
     <link rel="icon" href="static/logo.png">
+    <body>
+        <body>
+            <div class="head">
+                <div class="logo">
+                    <img src="static/logo.png" alt="logo de la app" class="logo-img">
+                    <a href="#">Creamy Cupcake</a>
+                </div>
+        
+                <div class="navbar">
+                    <a href="#productos">Productos</a>
+                    <a href="mailto:personaejemplo@paginaejemplo.es">vanumass07@gmail.com</a>
+                </div>
+            </div>
+        
+            <header class="content header">
+                
+            </header>
+        
+            <div class="contenedor">
+                <div class="cont">
+                    <div class="imagen03">
+                        <img class="imagen04" src="static/logo2.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <div align="left">
+                            <h1 class="title">Nosotros</h1>
+                            <div id="nosotros">
+                                <b>
+                                    Somos una empresa Moreliana dedicada a servicios y productos relacionados con la preparación,
+                                    siendo nuestro mayor referente la elaboración de Cupcakes con una enorme variedad de estilos, sabores y opciones para cubrir todas las necesidades de nuestros clientes.
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <section class="content sau">
+                <h1 class="title">Productos</h1>
+                <div id="productos">
+                    <b>
+                        Estos son algunos de nuestros productos, puedes revisar todo nuestro menú en nuestra tienda de recetas.
+                    </b>
+                </div>
+            </section>
     <style>
         body {
             margin: 0;
@@ -180,49 +225,6 @@
         }
     </style>
 </head>
-<body>
-    <div class="head">
-        <div class="logo">
-            <img src="static/logo.png" alt="logo de la app" class="logo-img">
-            <a href="#">Creamy Cupcake</a>
-        </div>
-
-        <div class="navbar">
-            <a href="#productos">Productos</a>
-            <a href="mailto:personaejemplo@paginaejemplo.es">vanumass07@gmail.com</a>
-        </div>
-    </div>
-
-    <header class="content header"></header>
-
-    <div class="contenedor">
-        <div class="cont">
-            <div class="imagen03">
-                <img class="imagen04" src="static/logo2.png" alt="">
-            </div>
-            <div class="txt">
-                <div align="left">
-                    <h1 class="title">Nosotros</h1>
-                    <div id="nosotros">
-                        <b>
-                            Somos una empresa Moreliana dedicada a servicios y productos relacionados con la preparación,
-                            siendo nuestro mayor referente la elaboración de Cupcakes con una enorme variedad de estilos, sabores y opciones para cubrir todas las necesidades de nuestros clientes.
-                        </b>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="content sau">
-        <h1 class="title">Productos</h1>
-        <div id="productos">
-            <b>
-                Estos son algunos de nuestros productos, puedes revisar todo nuestro menú en nuestra tienda de recetas.
-            </b>
-        </div>
-    </section>
-
     <div class="container">
         {% for receta in recetas  %}
         <div class="image-box">
