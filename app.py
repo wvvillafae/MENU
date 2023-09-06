@@ -18,7 +18,3 @@ def ingredientes(receta):
     ingredientesrecividos = ingrediente.find({'name': receta})
     return render_template('receta.html', ingrediente = ingredientesrecividos)
 
-
-
-if __name__ == '__main__':
-    app.run(debug=True, port=4000)
